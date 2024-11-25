@@ -3,7 +3,9 @@ package net.vbinnie.thulium;
 import net.fabricmc.api.ModInitializer;
 
 import net.vbinnie.thulium.block.ModBlocks;
+import net.vbinnie.thulium.item.ModItemGroup;
 import net.vbinnie.thulium.item.ModItems;
+import net.vbinnie.thulium.util.ModRegistries;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,6 +15,10 @@ public class Thulium implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
+		ModRegistries.registerModStuffs();
+
+		ModItemGroup.registerItemGroups();
 
 		ModItems.registerModItems();
 

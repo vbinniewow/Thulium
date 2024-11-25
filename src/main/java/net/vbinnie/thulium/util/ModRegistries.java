@@ -5,7 +5,7 @@ import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.vbinnie.thulium.block.ModBlocks;
 
 public class ModRegistries {
-    public static void RegisterModStuffs() {
+    public static void registerModStuffs() {
         registerStrippables();
         registerFlammables();
     }
