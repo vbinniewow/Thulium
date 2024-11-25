@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "thulium:divine_log",
+    "thulium:stripped_divine_log",
+    "thulium:divine_wood",
+    "thulium:stripped_divine_wood"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "thulium:block/divine_log",
+    "side": "thulium:block/divine_log"
+  }
+}

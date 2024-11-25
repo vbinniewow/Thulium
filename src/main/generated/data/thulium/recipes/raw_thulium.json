@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "thulium:raw_thulium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "thulium:raw_thulium"
+  }
+}

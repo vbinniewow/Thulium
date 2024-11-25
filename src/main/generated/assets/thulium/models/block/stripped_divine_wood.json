@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "thulium:block/stripped_divine_log",
+    "side": "thulium:block/stripped_divine_log"
+  }
+}
