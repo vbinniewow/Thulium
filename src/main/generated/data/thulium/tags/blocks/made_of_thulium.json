@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "thulium:raw_thulium_block",
+    "thulium:thulium_block"
+  ]
+}

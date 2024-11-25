@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "thulium",
+	"version": "${version}",
+	"name": "Thulium",
+	"description": "I threw my computer at the wall and this mod came out.",
+	"authors": [
+		"The wall I threw my computer at (and vbinnie)"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/thulium/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.vbinnie.thulium.Thulium"
+		],
+		"fabric-datagen": [
+			"net.vbinnie.thulium.ThuliumDataGenerator"
+		],
+
+		"fabric-client": [
+			"net.vbinnie.thulium.ThuliumClient"
+		]
+	},
+	"mixins": [
+		"thulium.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

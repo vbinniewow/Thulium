@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:thulium_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_thulium_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "thulium:thulium_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_thulium_ingot",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:thulium_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

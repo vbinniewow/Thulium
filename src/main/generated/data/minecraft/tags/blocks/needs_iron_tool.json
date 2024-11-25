@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "thulium:thulium_block",
+    "thulium:raw_thulium_block",
+    "thulium:deepslate_thulium_ore"
+  ]
+}

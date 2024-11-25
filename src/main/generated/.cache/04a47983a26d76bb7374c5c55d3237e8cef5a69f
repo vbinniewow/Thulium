@@ -1,0 +1,15 @@
+// 1.20.1	2024-11-24T10:47:23.4784459	Thulium/Model Definitions
+e0b6a931f852e61794929819c867710e9d06f8bc assets\thulium\models\item\deepslate_thulium_ore.json
+f414bfdc4a3ba3a62bedd35de4c967801a5f3e02 assets\thulium\models\block\deepslate_thulium_ore.json
+6199f4e7d90b718a0c8c0d68ab0ad073db38fba4 assets\thulium\models\block\raw_thulium_block.json
+b067901078101e6f46ca8dcd6a1a50fedb4dd632 assets\thulium\models\item\raw_thulium_block.json
+248a9abe38ce8ad61c40a09a5a3ce5ba8b92edd1 assets\thulium\models\item\thulium_ingot.json
+ceba14603c9e7a749e4897791d9f3ce765c946af assets\thulium\blockstates\raw_thulium_block.json
+89416c266f950651548d20bcf113bbd12c59402e assets\thulium\models\item\thulium_block.json
+29d16d010bdfdc50154412031375c272e35ead6a assets\thulium\models\block\thulium_block.json
+55dbc9874ceb71cf5172ff214735a7426a87d13c assets\thulium\blockstates\thulium_block.json
+e2c771edf636fb31dda9cf483d466b0ae64cc46d assets\thulium\blockstates\thulio_block.json
+036fd6646cd26531403f083119b1560c717e4ea3 assets\thulium\blockstates\deepslate_thulium_ore.json
+e7438b1ee18eee3e395e1fcd15cfae8060f8cccb assets\thulium\models\item\thulio_block.json
+ec315e5c58c187cfad1b0bca11fb06974f9105f3 assets\thulium\models\item\raw_thulium.json
+d30f12c3799c79a110b44519c5958e850a52c5b4 assets\thulium\models\block\thulio_block.json
