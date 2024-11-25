@@ -19,6 +19,13 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_THULIUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_THULIUM_ORE);
 
+        blockStateModelGenerator.registerLog(ModBlocks.DIVINE_LOG).log(ModBlocks.DIVINE_LOG).wood(ModBlocks.DIVINE_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_DIVINE_LOG).log(ModBlocks.STRIPPED_DIVINE_LOG).wood(ModBlocks.STRIPPED_DIVINE_WOOD);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DIVINE_PLANKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DIVINE_LEAVES);
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.DIVINE_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+
+
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.THULIO_BLOCK);
     }
 

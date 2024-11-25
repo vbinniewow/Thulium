@@ -5,6 +5,13 @@
   "block.thulium.thulium_block": "Block of Thulium",
   "block.thulium.raw_thulium_block": "Block of Raw Thulium",
   "block.thulium.deepslate_thulium_ore": "Deepslate Thulium Ore",
+  "block.thulium.divine_log": "Divine Log",
+  "block.thulium.divine_leaves": "Divine Leaves",
+  "block.thulium.divine_sapling": "Divine Sapling",
+  "block.thulium.stripped_divine_log": "Stripped Divine Log",
+  "block.thulium.divine_planks": "Divine Planks",
+  "block.thulium.stripped_divine_wood": "Stripped Divine Wood",
+  "block.thulium.divine_wood": "Divine Wood",
 
   "block.thulium.thulio_block": "Block of Thúlio"
 }

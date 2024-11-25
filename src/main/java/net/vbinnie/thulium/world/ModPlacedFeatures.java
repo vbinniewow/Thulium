@@ -1,4 +1,4 @@
-package net.vbinnie.world;
+package net.vbinnie.thulium.world;
 
 public class ModPlacedFeatures {
 }

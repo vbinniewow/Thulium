@@ -22,12 +22,6 @@ public class ModItems {
     }
 
     private static void itemGroupIngredients(FabricItemGroupEntries entries) {
-        entries.add(THULIUM_INGOT);
-        entries.add(RAW_THULIUM);
-
-        entries.add(ModBlocks.THULIUM_BLOCK);
-        entries.add(ModBlocks.RAW_THULIUM_BLOCK);
-        entries.add(ModBlocks.DEEPSLATE_THULIUM_ORE);
     }
 
     public static void registerModItems() {

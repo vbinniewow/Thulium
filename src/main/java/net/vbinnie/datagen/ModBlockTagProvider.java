@@ -32,5 +32,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.THULIUM_BLOCK,
                         ModBlocks.RAW_THULIUM_BLOCK,
                             ModBlocks.DEEPSLATE_THULIUM_ORE);
+
+        getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)
+                .add(ModBlocks.DIVINE_LOG,
+                        ModBlocks.STRIPPED_DIVINE_LOG,
+                            ModBlocks.DIVINE_WOOD,
+                                ModBlocks.STRIPPED_DIVINE_WOOD);
+
     }
 }

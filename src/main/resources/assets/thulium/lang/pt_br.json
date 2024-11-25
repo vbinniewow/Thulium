@@ -1,10 +1,17 @@
 {
-  "item.thulium.thulium_ingot": "Barra de Thulium",
-  "item.thulium.raw_thulium": "Thulium Bruto",
+  "item.thulium.thulium_ingot": "Barra de thulium",
+  "item.thulium.raw_thulium": "Thulium bruto",
 
-  "block.thulium.thulium_block": "Bloco de Thulium",
-  "block.thulium.raw_thulium_block": "Bloco de Thulium Bruto",
-  "block.thulium.deepslate_thulium_ore": "Minério de Thulium de Ardósia",
+  "block.thulium.thulium_block": "Bloco de thulium",
+  "block.thulium.raw_thulium_block": "Bloco de thulium bruto",
+  "block.thulium.deepslate_thulium_ore": "Minério de thulium de ardósia",
+  "block.thulium.divine_log": "Tronco divino",
+  "block.thulium.divine_leaves": "Folhas divina",
+  "block.thulium.divine_sapling": "Muda divina",
+  "block.thulium.stripped_divine_log": "Tronco divino descascado",
+  "block.thulium.divine_planks": "Tábuas divina",
+  "block.thulium.stripped_divine_wood": "Madeira divina descascada",
+  "block.thulium.divine_wood": "Madeira divina",
 
   "block.thulium.thulio_block": "Bloco de Thúlio"
 
