@@ -22,7 +22,7 @@
 			"net.vbinnie.thulium.ThuliumDataGenerator"
 		],
 
-		"fabric-client": [
+		"client": [
 			"net.vbinnie.thulium.ThuliumClient"
 		]
 	},
