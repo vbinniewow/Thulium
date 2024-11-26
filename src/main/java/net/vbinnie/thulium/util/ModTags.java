@@ -13,6 +13,9 @@ public class ModTags {
         public static final TagKey<Block> MADE_OF_THULIUM =
                 createBlockTag("made_of_thulium");
 
+        public static final TagKey<Block> DIVINE_WOODS =
+                createBlockTag("divine_woods");
+
         public static final TagKey<Block> TEST_BLOCKS =
                 createBlockTag("test_blocks");
 
@@ -27,8 +30,12 @@ public class ModTags {
     }
 
     public static class Items {
+
+        public static final TagKey<Item> DIVINE_WOODS =
+                createItemTag("divine_woods");
         private  static TagKey<Item> createItemTag(String name) {
             return TagKey.of(RegistryKeys.ITEM, new Identifier(Thulium.MOD_ID, name));
+
         }
     }
 

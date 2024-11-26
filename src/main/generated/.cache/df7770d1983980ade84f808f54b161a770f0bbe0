@@ -1,6 +1,7 @@
-// 1.20.1	2024-11-25T21:25:33.9858122	Thulium/Tags for minecraft:block
+// 1.20.1	2024-11-26T08:41:37.1441244	Thulium/Tags for minecraft:block
 2478e69eb3b3df295ee1750281fe6db8a48186e6 data\minecraft\tags\blocks\needs_iron_tool.json
 39ef2d08c258d8f059a6c0ba973e58d61fdd6ef6 data\minecraft\tags\blocks\logs_that_burn.json
 2478e69eb3b3df295ee1750281fe6db8a48186e6 data\minecraft\tags\blocks\mineable\pickaxe.json
+3f4f9d9d06030d6ed8aa502567e747500aa4a576 data\thulium\tags\blocks\divine_woods.json
 92f6ecfec7af795ad4e86ead14a47f1f86ce3494 data\thulium\tags\blocks\made_of_thulium.json
 fd72ffc0d9b59651fd18828899ccf759bec16101 data\thulium\tags\blocks\test_blocks.json

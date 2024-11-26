@@ -9,6 +9,7 @@ import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 import net.vbinnie.thulium.block.ModBlocks;
 import net.vbinnie.thulium.item.ModItems;
+import net.vbinnie.thulium.util.ModTags;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -24,7 +25,9 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
         offerShapelessRecipe(exporter, ModBlocks.DIVINE_PLANKS, ModBlocks.DIVINE_LOG, "misc", 4);
-
+        offerShapelessRecipe(exporter, ModBlocks.DIVINE_PLANKS, ModBlocks.STRIPPED_DIVINE_LOG, "misc", 4);
+        offerShapelessRecipe(exporter, ModBlocks.DIVINE_PLANKS, ModBlocks.STRIPPED_DIVINE_WOOD, "misc", 4);
+        offerShapelessRecipe(exporter, ModBlocks.DIVINE_PLANKS, ModBlocks.DIVINE_WOOD, "misc", 4);
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.THULIUM_INGOT, RecipeCategory.MISC, ModBlocks.THULIUM_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.RAW_THULIUM, RecipeCategory.MISC, ModBlocks.RAW_THULIUM_BLOCK);
