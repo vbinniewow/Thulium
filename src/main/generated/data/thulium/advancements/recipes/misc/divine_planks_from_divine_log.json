@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_divine_planks": {
+    "has_divine_log": {
       "conditions": {
         "items": [
           {
             "items": [
-              "thulium:divine_planks"
+              "thulium:divine_log"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:divine_log_from_divine_planks"
+        "recipe": "minecraft:divine_planks_from_divine_log"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_divine_planks",
+      "has_divine_log",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:divine_log_from_divine_planks"
+      "minecraft:divine_planks_from_divine_log"
     ]
   },
   "sends_telemetry_event": false

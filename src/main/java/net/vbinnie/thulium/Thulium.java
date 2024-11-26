@@ -6,6 +6,7 @@ import net.vbinnie.thulium.block.ModBlocks;
 import net.vbinnie.thulium.item.ModItemGroup;
 import net.vbinnie.thulium.item.ModItems;
 import net.vbinnie.thulium.util.ModRegistries;
+import net.vbinnie.thulium.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -23,6 +24,8 @@ public class Thulium implements ModInitializer {
 		ModItems.registerModItems();
 
 		ModBlocks.registerModBlocks();
+
+		ModWorldGeneration.generateModWorldGeneration();
 
 	}
 }

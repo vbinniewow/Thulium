@@ -23,11 +23,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
-        offerShapelessRecipe(exporter, ModBlocks.DIVINE_LOG, ModBlocks.DIVINE_PLANKS, "misc", 4);
-
-       offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, ModBlocks.DIVINE_LOG, ModBlocks.DIVINE_WOOD); {
-           ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.DIVINE_WOOD, 3);
-        };
+        offerShapelessRecipe(exporter, ModBlocks.DIVINE_PLANKS, ModBlocks.DIVINE_LOG, "misc", 4);
 
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.THULIUM_INGOT, RecipeCategory.MISC, ModBlocks.THULIUM_BLOCK);

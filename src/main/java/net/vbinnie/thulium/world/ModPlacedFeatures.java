@@ -20,7 +20,7 @@ public class ModPlacedFeatures {
 
         register(context, DIVINEWOOD_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.DIVINEWOOD_KEY),
                 VegetationPlacedFeatures.treeModifiersWithWouldSurvive(
-                        PlacedFeatures.createCountExtraModifier(1, 0.1f, 2), ModBlocks.DIVINE_SAPLING));
+                        PlacedFeatures.createCountExtraModifier(1, 0.05f, 1), ModBlocks.DIVINE_SAPLING));
 
 
     }

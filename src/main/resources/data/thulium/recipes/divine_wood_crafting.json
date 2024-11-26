@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "thulium:divine_wood"
+      "item": "thulium:divine_log"
     }
   },
   "pattern": [
@@ -11,7 +11,8 @@
     "##"
   ],
   "result": {
-    "item": "thulium:divine_log"
+    "item": "thulium:divine_wood",
+    "count": 3
   },
   "show_notification": true
 }

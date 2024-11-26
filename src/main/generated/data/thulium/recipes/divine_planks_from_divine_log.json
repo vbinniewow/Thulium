@@ -4,11 +4,11 @@
   "group": "misc",
   "ingredients": [
     {
-      "item": "thulium:divine_planks"
+      "item": "thulium:divine_log"
     }
   ],
   "result": {
     "count": 4,
-    "item": "thulium:divine_log"
+    "item": "thulium:divine_planks"
   }
 }
