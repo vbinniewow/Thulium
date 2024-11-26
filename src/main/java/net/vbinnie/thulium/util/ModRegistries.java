@@ -25,7 +25,7 @@ public class ModRegistries {
 
     private static void registerStrippables() {
         StrippableBlockRegistry.register(ModBlocks.DIVINE_LOG, ModBlocks.STRIPPED_DIVINE_LOG);
-        // StrippableBlockRegistry.register(ModBlocks.DIVINE_WOOD, ModBlocks.STRIPPED_DIVINE_WOOD);
-        // WILL FIX ABOVE IN THE FUTURE!!!
+
+        StrippableBlockRegistry.register(ModBlocks.DIVINE_WOOD, ModBlocks.STRIPPED_DIVINE_WOOD);
     }
 }
