@@ -17,15 +17,15 @@ import net.vbinnie.thulium.Thulium;
 import net.vbinnie.thulium.block.ModBlocks;
 
 public class ModConfiguredFeatures {
-    public static final RegistryKey<ConfiguredFeature<?, ?>> DRIFTWOOD_KEY = registerKey("driftwood");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> DIVINEWOOD_KEY = registerKey("divinewood");
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
-        register(context, DRIFTWOOD_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
+        register(context, DIVINEWOOD_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                 BlockStateProvider.of(ModBlocks.DIVINE_LOG),
-                new StraightTrunkPlacer(5, 6, 3),
+                new StraightTrunkPlacer(4, 3, 0),
                 BlockStateProvider.of(ModBlocks.DIVINE_LEAVES),
-                new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(1), 2),
-                new TwoLayersFeatureSize(1, 0, 2)).build());
+                new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 3),
+                new TwoLayersFeatureSize(1, 0, 1)).build());
     }
 
 

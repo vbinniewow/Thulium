@@ -2,10 +2,7 @@ package net.vbinnie.thulium.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.PillarBlock;
-import net.minecraft.block.SaplingBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -13,6 +10,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.vbinnie.thulium.Thulium;
 import net.vbinnie.thulium.util.ModTags;
+import net.vbinnie.thulium.world.tree.DivineWoodSaplingGenerator;
 
 import static net.minecraft.block.Blocks.AMETHYST_CLUSTER;
 
@@ -32,10 +30,18 @@ public class ModBlocks {
 
     // NATURAL BLOCKS BELOW
     public static final Block DIVINE_LEAVES = registerBlock("divine_leaves",
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(1f)));
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(1f)));
 
     public static final Block DIVINE_SAPLING = registerBlock("divine_sapling",
-            new SaplingBlock(null, FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(1f)));
+            new SaplingBlock(new DivineWoodSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(1f)));
+
+    public static final Block POTTED_DIVINE_SAPLING = registerBlockWithoutBlockItem("potted_divine_sapling",
+            new FlowerPotBlock(DIVINE_SAPLING, FabricBlockSettings.copyOf(Blocks.POTTED_OAK_SAPLING).strength(1f)));
+
+    private static Block registerBlockWithoutBlockItem(String name, Block block) {
+        return Registry.register(Registries.BLOCK, new Identifier(Thulium.MOD_ID, name), block);
+    }
+
 
     public static final Block DIVINE_LOG = registerBlock("divine_log",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));

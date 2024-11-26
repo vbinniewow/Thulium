@@ -12,8 +12,8 @@ import net.vbinnie.thulium.block.ModBlocks;
 
 public class ModItemGroup {
     public static final ItemGroup THULIUM_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(Thulium.MOD_ID, "pink_garnet_group"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.pink_garnet_group"))
+            new Identifier(Thulium.MOD_ID, "thulium_group"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.thulium_group"))
                     .icon(() -> new ItemStack(ModItems.THULIUM_INGOT)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RAW_THULIUM);
                         entries.add(ModItems.THULIUM_INGOT);
@@ -28,6 +28,8 @@ public class ModItemGroup {
                         entries.add(ModBlocks.DIVINE_LOG);
                         entries.add(ModBlocks.DIVINE_SAPLING);
                         entries.add(ModBlocks.STRIPPED_DIVINE_WOOD);
+                        entries.add(ModBlocks.DIVINE_WOOD);
+                        entries.add(ModBlocks.STRIPPED_DIVINE_LOG);
                         entries.add(ModBlocks.DIVINE_PLANKS);
 
 

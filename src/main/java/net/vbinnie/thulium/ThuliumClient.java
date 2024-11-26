@@ -11,6 +11,7 @@ public class ThuliumClient implements ClientModInitializer {
 
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.DIVINE_SAPLING, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_DIVINE_SAPLING, RenderLayer.getCutout());
 
     }
 }

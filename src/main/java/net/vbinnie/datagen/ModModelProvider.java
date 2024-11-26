@@ -23,7 +23,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_DIVINE_LOG).log(ModBlocks.STRIPPED_DIVINE_LOG).wood(ModBlocks.STRIPPED_DIVINE_WOOD);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DIVINE_PLANKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DIVINE_LEAVES);
-        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.DIVINE_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.DIVINE_SAPLING, ModBlocks.POTTED_DIVINE_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
 
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.THULIO_BLOCK);

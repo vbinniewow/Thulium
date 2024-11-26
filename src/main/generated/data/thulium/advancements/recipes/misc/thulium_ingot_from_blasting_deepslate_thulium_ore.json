@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_deepslate_thulium_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "thulium:deepslate_thulium_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:thulium_ingot_from_blasting_deepslate_thulium_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_deepslate_thulium_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:thulium_ingot_from_blasting_deepslate_thulium_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}
