@@ -38,9 +38,8 @@ public class ModBlocks {
     public static final Block POTTED_DIVINE_SAPLING = registerBlockWithoutBlockItem("potted_divine_sapling",
             new FlowerPotBlock(DIVINE_SAPLING, FabricBlockSettings.copyOf(Blocks.POTTED_OAK_SAPLING).strength(1f)));
 
-    private static Block registerBlockWithoutBlockItem(String name, Block block) {
-        return Registry.register(Registries.BLOCK, new Identifier(Thulium.MOD_ID, name), block);
-    }
+
+
 
 
     public static final Block DIVINE_LOG = registerBlock("divine_log",
@@ -62,10 +61,20 @@ public class ModBlocks {
 
 
     // DEV BLOCKS BELOW
-    public static final Block THULIO_BLOCK = registerBlock("thulio_block",
+    public static final Block THULIO_BLOCK = registerBlockWithoutBlockItem("thulio_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.BEDROCK)));
+
+
+    public static final Block DEV_BLOCK2 = registerBlockWithoutBlockItem("dev_block2",
             new Block(FabricBlockSettings.copyOf(Blocks.BEDROCK)));
     // DEV BLOCKS ABOVE
 
+
+    private static Block registerBlockWithoutBlockItem(String name, Block block) {
+        return Registry.register(Registries.BLOCK, new Identifier(Thulium.MOD_ID, name), block);
+
+
+    }
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

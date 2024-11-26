@@ -27,6 +27,7 @@ public class ModModelProvider extends FabricModelProvider {
 
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.THULIO_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEV_BLOCK2);
     }
 
     @Override

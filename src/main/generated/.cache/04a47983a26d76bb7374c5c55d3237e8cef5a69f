@@ -1,4 +1,4 @@
-// 1.20.1	2024-11-26T09:44:58.6108393	Thulium/Model Definitions
+// 1.20.1	2024-11-26T10:41:57.1754598	Thulium/Model Definitions
 e0b6a931f852e61794929819c867710e9d06f8bc assets\thulium\models\item\deepslate_thulium_ore.json
 432a661378e60831c8707fb047de6e2c0e1c9c00 assets\thulium\models\block\stripped_divine_log.json
 04c5d26570dd3caf5495dc149b608b3e4193db96 assets\thulium\blockstates\stripped_divine_wood.json
@@ -6,15 +6,15 @@ e0b6a931f852e61794929819c867710e9d06f8bc assets\thulium\models\item\deepslate_th
 288fb45336656226c09e57182fba1b14083e2d3a assets\thulium\models\block\divine_leaves.json
 e7aa1f15a58c3bc294ebbb567702cec3de094ca1 assets\thulium\blockstates\divine_sapling.json
 42b2b1a446d5da4461de0d0bf5417df1f5991e7e assets\thulium\models\item\divine_leaves.json
-d614d97f861fe443a2e6b2f0bc0db6ea75014ec2 assets\thulium\blockstates\divine_leaves.json
 9cb76bba86d5b433f1cfed80f432ef7cdb987593 assets\thulium\blockstates\divine_wood.json
-e2379bac284c5228d3374b9a159b5508940b1430 assets\thulium\models\block\stripped_divine_wood.json
+d614d97f861fe443a2e6b2f0bc0db6ea75014ec2 assets\thulium\blockstates\divine_leaves.json
 5b4adf8cbf67b5119e4a074018b9abfa17ca0fd0 assets\thulium\models\item\stripped_divine_wood.json
+e2379bac284c5228d3374b9a159b5508940b1430 assets\thulium\models\block\stripped_divine_wood.json
 63313ddd82e643b905f320952e4dfc7131d96c62 assets\thulium\models\block\divine_log.json
 55dbc9874ceb71cf5172ff214735a7426a87d13c assets\thulium\blockstates\thulium_block.json
-e7438b1ee18eee3e395e1fcd15cfae8060f8cccb assets\thulium\models\item\thulio_block.json
 760699dc3c2cd982d86420dd291373f3ae03e193 assets\thulium\models\block\potted_divine_sapling.json
 d56b175377deab70cd56a247a84191098c0a99cd assets\thulium\models\item\divine_log.json
+6c891bfc557423a77a84c7e33621413ae6738839 assets\thulium\models\block\dev_block2.json
 a5fc9003369d86b1a6d35ffb9eeece402670b848 assets\thulium\blockstates\stripped_divine_log.json
 9c687431db97f2ee14c869eb6cf6afdb04ff3205 assets\thulium\models\block\divine_wood.json
 d9a06c05586e604c2f43294e3b953e3f751cec96 assets\thulium\models\item\divine_sapling.json
@@ -34,6 +34,7 @@ ceba14603c9e7a749e4897791d9f3ce765c946af assets\thulium\blockstates\raw_thulium_
 6438b71c2e4f0d0328f9e6b85fcdcf612aa4e097 assets\thulium\models\block\divine_planks.json
 9cf318a9180fed72c0e05174be46e7c5c2d592bf assets\thulium\models\item\divine_wood.json
 e2c771edf636fb31dda9cf483d466b0ae64cc46d assets\thulium\blockstates\thulio_block.json
+47274629e393e47e4c069ecca7c5bc3734931997 assets\thulium\blockstates\dev_block2.json
 036fd6646cd26531403f083119b1560c717e4ea3 assets\thulium\blockstates\deepslate_thulium_ore.json
 f5e2304b17cea3a3fd60c85a1f951a1e83528b4f assets\thulium\models\block\divine_sapling.json
 ec315e5c58c187cfad1b0bca11fb06974f9105f3 assets\thulium\models\item\raw_thulium.json
