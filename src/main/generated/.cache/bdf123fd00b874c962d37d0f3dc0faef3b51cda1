@@ -1,10 +1,10 @@
-// 1.20.1	2024-11-26T13:17:34.9546528	Thulium/Block Loot Tables
+// 1.20.1	2024-11-26T13:22:09.9745827	Thulium/Block Loot Tables
 c636167cb7fcac31104ad722f311dc48b81c38bb data\thulium\loot_tables\blocks\divine_planks.json
 aac1b6c72219c00ea403e9392d930efba8325664 data\thulium\loot_tables\blocks\thulium_block.json
 62516b3543ac0d03ca072a92e6d4e858bd936739 data\thulium\loot_tables\blocks\divine_log.json
 2848827841f8a0469bea361d7e86c4f6b5f7d654 data\thulium\loot_tables\blocks\deepslate_thulium_ore.json
 f56ca5dac470492de336171f1435308332396a77 data\thulium\loot_tables\blocks\raw_thulium_block.json
-2acb625933acc2727cbac1f011192b4af6dfdffc data\thulium\loot_tables\blocks\divine_leaves.json
+1e871420d5eb24915f25ee24c181165b4cef5f15 data\thulium\loot_tables\blocks\divine_leaves.json
 f419b34b74865c63e86e08a2150ac850326c35c9 data\thulium\loot_tables\blocks\stripped_divine_wood.json
 c6000d425afeb0b8a67356597d61d4c22b5a94cd data\thulium\loot_tables\blocks\stripped_divine_log.json
 765a224b349191c13092b6785ad9d62bc83ae192 data\thulium\loot_tables\blocks\divine_wood.json

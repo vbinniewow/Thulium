@@ -27,6 +27,6 @@ public class ModBlockLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STRIPPED_DIVINE_LOG);
         addDrop(ModBlocks.DIVINE_LOG);
         addDrop(ModBlocks.DIVINE_PLANKS);
-        addDrop(ModBlocks.DIVINE_LEAVES, leavesDrops(ModBlocks.DIVINE_LEAVES, ModBlocks.DIVINE_LEAVES, 3));
+        addDrop(ModBlocks.DIVINE_LEAVES, leavesDrops(ModBlocks.DIVINE_LEAVES, ModBlocks.DIVINE_LEAVES, 0.5f));
     }
 }

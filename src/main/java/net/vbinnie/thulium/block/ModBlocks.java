@@ -30,7 +30,7 @@ public class ModBlocks {
 
     // NATURAL BLOCKS BELOW
     public static final Block DIVINE_LEAVES = registerBlock("divine_leaves",
-            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(1f)));
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES)));
 
     public static final Block DIVINE_SAPLING = registerBlock("divine_sapling",
             new SaplingBlock(new DivineWoodSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(1f)));
