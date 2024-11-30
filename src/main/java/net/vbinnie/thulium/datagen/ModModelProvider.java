@@ -1,4 +1,4 @@
-package net.vbinnie.datagen;
+package net.vbinnie.thulium.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
@@ -21,7 +21,12 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerLog(ModBlocks.DIVINE_LOG).log(ModBlocks.DIVINE_LOG).wood(ModBlocks.DIVINE_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_DIVINE_LOG).log(ModBlocks.STRIPPED_DIVINE_LOG).wood(ModBlocks.STRIPPED_DIVINE_WOOD);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DIVINE_PLANKS);
+
+        BlockStateModelGenerator.BlockTexturePool divinePlankTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DIVINE_PLANKS);
+        divinePlankTexturePool.stairs(ModBlocks.DIVINE_SLAB);
+        divinePlankTexturePool.stairs(ModBlocks.DIVINE_STAIRS);
+
+
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DIVINE_LEAVES);
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.DIVINE_SAPLING, ModBlocks.POTTED_DIVINE_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
 

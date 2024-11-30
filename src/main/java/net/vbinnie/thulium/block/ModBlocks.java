@@ -12,7 +12,7 @@ import net.vbinnie.thulium.Thulium;
 import net.vbinnie.thulium.util.ModTags;
 import net.vbinnie.thulium.world.tree.DivineWoodSaplingGenerator;
 
-import static net.minecraft.block.Blocks.AMETHYST_CLUSTER;
+import static net.minecraft.block.Blocks.*;
 
 public class ModBlocks {
     // METAL/ORE/MINERAL BLOCKS BELOW
@@ -57,6 +57,13 @@ public class ModBlocks {
 
     public static final Block DIVINE_PLANKS = registerBlock("divine_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(4f)));
+
+    public static final Block DIVINE_STAIRS = registerBlock("divine_stairs",
+            new StairsBlock(ModBlocks.DIVINE_PLANKS.getDefaultState(), FabricBlockSettings.copyOf(OAK_STAIRS)));
+
+    public static final Block DIVINE_SLAB = registerBlock("divine_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(OAK_SLAB)));
+
     // NATURAL BLOCKS ABOVE
 
 

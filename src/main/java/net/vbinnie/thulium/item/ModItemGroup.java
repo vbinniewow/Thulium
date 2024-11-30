@@ -31,8 +31,8 @@ public class ModItemGroup {
                         entries.add(ModBlocks.DIVINE_WOOD);
                         entries.add(ModBlocks.STRIPPED_DIVINE_LOG);
                         entries.add(ModBlocks.DIVINE_PLANKS);
-
-
+                        entries.add(ModBlocks.DIVINE_SLAB);
+                        entries.add(ModBlocks.DIVINE_STAIRS);
 
 
                     }).build());

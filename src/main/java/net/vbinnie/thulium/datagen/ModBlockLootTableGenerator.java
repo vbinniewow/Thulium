@@ -1,4 +1,4 @@
-package net.vbinnie.datagen;
+package net.vbinnie.thulium.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
@@ -19,6 +19,7 @@ public class ModBlockLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RAW_THULIUM_BLOCK);
 
 
+
         addDrop(ModBlocks.DEEPSLATE_THULIUM_ORE, oreDrops(ModBlocks.DEEPSLATE_THULIUM_ORE, ModItems.RAW_THULIUM));
 
         addDrop(ModBlocks.DIVINE_WOOD);
@@ -28,5 +29,10 @@ public class ModBlockLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DIVINE_LOG);
         addDrop(ModBlocks.DIVINE_PLANKS);
         addDrop(ModBlocks.DIVINE_LEAVES, leavesDrops(ModBlocks.DIVINE_LEAVES, ModBlocks.DIVINE_LEAVES, 0.5f));
+
+        addDrop(ModBlocks.DIVINE_STAIRS);
+
+        addDrop(ModBlocks.DIVINE_SLAB, slabDrops(ModBlocks.DIVINE_SLAB));
+
     }
 }
