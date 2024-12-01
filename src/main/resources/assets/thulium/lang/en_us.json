@@ -14,6 +14,13 @@
   "block.thulium.divine_wood": "Divine Wood",
   "block.thulium.divine_stairs": "Divine Stairs",
   "block.thulium.divine_slab": "Divine Slab",
+  "block.thulium.divine_button": "Divine Button",
+  "block.thulium.divine_pressure_plate": "Divine Pressure Plate",
+
+  "block.thulium.divine_fence": "Divine Fence",
+  "block.thulium.divine_fence_gate": "Divine Fence Gate",
+  "block.thulium.divine_door": "Divine Door",
+  "block.thulium.divine_trapdoor": "Divine Trapdoor",
 
   "itemgroup.thulium_group": "Thulium",
 

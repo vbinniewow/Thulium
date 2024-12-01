@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "thulium:block/divine_slab"
+    },
+    "type=double": {
+      "model": "thulium:block/divine_planks"
+    },
+    "type=top": {
+      "model": "thulium:block/divine_slab_top"
+    }
+  }
+}

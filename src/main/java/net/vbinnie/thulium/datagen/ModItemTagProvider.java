@@ -31,6 +31,27 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         getOrCreateTagBuilder(ItemTags.PLANKS)
                 .add(ModBlocks.DIVINE_PLANKS.asItem());
+
+        getOrCreateTagBuilder(ItemTags.WOODEN_SLABS)
+                .add(ModBlocks.DIVINE_SLAB.asItem());
+
+        getOrCreateTagBuilder(ItemTags.WOODEN_STAIRS)
+                .add(ModBlocks.DIVINE_STAIRS.asItem());
+
+        getOrCreateTagBuilder(ItemTags.WOODEN_BUTTONS)
+                .add(ModBlocks.DIVINE_BUTTON.asItem());
+
+        getOrCreateTagBuilder(ItemTags.WOODEN_PRESSURE_PLATES)
+                .add(ModBlocks.DIVINE_PRESSURE_PLATE.asItem());
+
+        getOrCreateTagBuilder(ItemTags.WOODEN_DOORS)
+                .add(ModBlocks.DIVINE_DOOR.asItem());
+
+        getOrCreateTagBuilder(ItemTags.WOODEN_FENCES)
+                .add(ModBlocks.DIVINE_FENCE.asItem());
+
+        getOrCreateTagBuilder(ItemTags.WOODEN_TRAPDOORS)
+                .add(ModBlocks.DIVINE_TRAPDOOR.asItem());
     }
 
 }

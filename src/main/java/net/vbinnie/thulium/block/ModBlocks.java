@@ -64,6 +64,24 @@ public class ModBlocks {
     public static final Block DIVINE_SLAB = registerBlock("divine_slab",
             new SlabBlock(FabricBlockSettings.copyOf(OAK_SLAB)));
 
+    public static final Block DIVINE_BUTTON = registerBlock("divine_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(OAK_SLAB), BlockSetType.OAK, 25, true));
+
+    public static final Block DIVINE_PRESSURE_PLATE = registerBlock("divine_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.MOBS, FabricBlockSettings.copyOf(OAK_PRESSURE_PLATE), BlockSetType.OAK));
+
+    public static final Block DIVINE_FENCE = registerBlock("divine_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(OAK_FENCE)));
+
+    public static final Block DIVINE_FENCE_GATE = registerBlock("divine_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(OAK_FENCE_GATE), WoodType.OAK));
+
+    public static final Block DIVINE_DOOR = registerBlock("divine_door",
+            new DoorBlock(FabricBlockSettings.copyOf(OAK_FENCE), BlockSetType.OAK));
+
+    public static final Block DIVINE_TRAPDOOR = registerBlock("divine_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(OAK_FENCE), BlockSetType.MANGROVE));
+
     // NATURAL BLOCKS ABOVE
 
 

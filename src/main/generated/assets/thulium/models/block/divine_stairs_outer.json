@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "thulium:block/divine_planks",
+    "side": "thulium:block/divine_planks",
+    "top": "thulium:block/divine_planks"
+  }
+}

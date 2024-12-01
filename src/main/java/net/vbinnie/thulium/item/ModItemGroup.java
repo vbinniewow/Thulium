@@ -33,6 +33,13 @@ public class ModItemGroup {
                         entries.add(ModBlocks.DIVINE_PLANKS);
                         entries.add(ModBlocks.DIVINE_SLAB);
                         entries.add(ModBlocks.DIVINE_STAIRS);
+                        entries.add(ModBlocks.DIVINE_BUTTON);
+                        entries.add(ModBlocks.DIVINE_PRESSURE_PLATE);
+
+                        entries.add(ModBlocks.DIVINE_TRAPDOOR);
+                        entries.add(ModBlocks.DIVINE_FENCE);
+                        entries.add(ModBlocks.DIVINE_FENCE_GATE);
+                        entries.add(ModBlocks.DIVINE_DOOR);
 
 
                     }).build());

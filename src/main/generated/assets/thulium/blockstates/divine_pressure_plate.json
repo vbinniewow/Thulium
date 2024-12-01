@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "thulium:block/divine_pressure_plate"
+    },
+    "powered=true": {
+      "model": "thulium:block/divine_pressure_plate_down"
+    }
+  }
+}

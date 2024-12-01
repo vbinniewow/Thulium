@@ -13,6 +13,17 @@
   "block.thulium.stripped_divine_wood": "Madeira divina descascada",
   "block.thulium.divine_wood": "Madeira divina",
   "itemgroup.thulium_group": "Thulium",
+  "block.thulium.divine_stairs": "Escadas divina",
+  "block.thulium.divine_slab": "Laje divina",
+  "block.thulium.divine_button": "Botão divino",
+  "block.thulium.divine_pressure_plate": "Placa de pressão divina",
+
+  "block.thulium.divine_fence": "Cerca divina",
+  "block.thulium.divine_fence_gate": "Portão divino",
+
+  "block.thulium.divine_door": "Porta divina",
+  "block.thulium.divine_trapdoor": "Alçapão divino",
+
 
   "block.thulium.thulio_block": "Bloco de Thúlio"
 

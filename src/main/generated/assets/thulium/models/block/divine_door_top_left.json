@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "textures": {
+    "bottom": "thulium:block/divine_door_bottom",
+    "top": "thulium:block/divine_door_top"
+  }
+}
