@@ -20,6 +20,23 @@ public class ModRegistries {
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.DIVINE_SAPLING, 5, 5);
 
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.DIVINE_PLANKS, 5, 20);
+
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.DIVINE_TRAPDOOR, 5, 20);
+
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.DIVINE_DOOR, 5, 20);
+
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.DIVINE_FENCE, 5, 20);
+
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.DIVINE_FENCE_GATE, 5, 20);
+
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.DIVINE_SLAB, 5, 20);
+
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.DIVINE_PRESSURE_PLATE, 5, 20);
+
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.DIVINE_BUTTON, 5, 20);
+
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.DIVINE_STAIRS, 5, 20);
+
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.DIVINE_LEAVES, 30, 60);
     }
 

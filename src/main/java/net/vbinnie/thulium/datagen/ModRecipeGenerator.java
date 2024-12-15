@@ -4,6 +4,8 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.item.Item;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.ShapelessRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
@@ -24,6 +26,19 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.POISONOUS_SUBSTANCE)
+                .pattern("CP")
+                .pattern("RF")
+                .input('C', Items.CHICKEN)
+                .input('F', Items.PUFFERFISH)
+                .input('R', Items.ROTTEN_FLESH)
+                .input('P', Items.POISONOUS_POTATO)
+                .criterion(hasItem(Items.ROTTEN_FLESH), conditionsFromItem(Items.ROTTEN_FLESH))
+                .criterion(hasItem(Items.PUFFERFISH), conditionsFromItem(Items.PUFFERFISH))
+                .criterion(hasItem(Items.CHICKEN), conditionsFromItem(Items.CHICKEN))
+                .criterion(hasItem(Items.POISONOUS_POTATO), conditionsFromItem(Items.POISONOUS_POTATO))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.POISONOUS_SUBSTANCE) + "_recipe"));
+
         offerShapelessRecipe(exporter, ModBlocks.DIVINE_PLANKS, ModBlocks.DIVINE_LOG, "misc", 4);
         offerShapelessRecipe(exporter, ModBlocks.DIVINE_PLANKS, ModBlocks.STRIPPED_DIVINE_LOG, "misc", 4);
         offerShapelessRecipe(exporter, ModBlocks.DIVINE_PLANKS, ModBlocks.STRIPPED_DIVINE_WOOD, "misc", 4);

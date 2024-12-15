@@ -46,5 +46,6 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.RAW_THULIUM, Models.GENERATED);
         itemModelGenerator.register(ModItems.THULIUM_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.POISONOUS_SUBSTANCE, Models.GENERATED);
     }
 }

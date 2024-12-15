@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:chicken"
+    },
+    "F": {
+      "item": "minecraft:pufferfish"
+    },
+    "P": {
+      "item": "minecraft:poisonous_potato"
+    },
+    "R": {
+      "item": "minecraft:rotten_flesh"
+    }
+  },
+  "pattern": [
+    "CP",
+    "RF"
+  ],
+  "result": {
+    "item": "thulium:poisonous_substance"
+  },
+  "show_notification": true
+}

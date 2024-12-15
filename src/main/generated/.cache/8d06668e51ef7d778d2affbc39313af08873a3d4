@@ -1,4 +1,4 @@
-// 1.20.1	2024-12-01T17:19:58.9428003	Thulium/Recipes
+// 1.20.1	2024-12-14T16:13:06.3830685	Thulium/Recipes
 89cd8f82878ce9859712532b2105214cdf8e8d27 data\thulium\advancements\recipes\misc\raw_thulium.json
 1e40e0a682b93e44d2dd0325cad3e0ab920a6e66 data\thulium\advancements\recipes\misc\thulium_ingot_from_smelting_deepslate_thulium_ore.json
 0ff97f8c70b557fe7fc332aa0f4568d3bee0e221 data\thulium\recipes\raw_thulium_block.json
@@ -22,4 +22,6 @@ af901ef09dc860de2a0e84644e2a3c8fdac54fe5 data\thulium\recipes\divine_planks_from
 45aeeb879efbdcfb2082214f850012666c1c2cf1 data\thulium\advancements\recipes\misc\thulium_ingot_from_blasting_raw_thulium.json
 4b7fc98171f177854a2f6c4cf52ed4505f98bf59 data\thulium\recipes\thulium_block.json
 4a7e13dfc152a4565d73e455de8c6eb16c99e5df data\thulium\advancements\recipes\misc\thulium_block.json
+88ee0dd9805a297b89621e48d4aaa2b2be390e11 data\thulium\advancements\recipes\misc\poisonous_substance_recipe.json
+25e9c943a7c81390983a8814835a413c5cea6b5e data\thulium\recipes\poisonous_substance_recipe.json
 63ffd86c47f052271dcf235a22af585f7114d1bf data\thulium\recipes\thulium_ingot_from_blasting_raw_thulium.json

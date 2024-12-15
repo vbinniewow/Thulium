@@ -17,6 +17,9 @@ public class ModItems {
     public static final Item RAW_THULIUM = registerItem("raw_thulium",
             new Item(new FabricItemSettings()));
 
+    public static final Item POISONOUS_SUBSTANCE = registerItem("poisonous_substance",
+            new Item(new FabricItemSettings()));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(Thulium.MOD_ID, name), item);
     }

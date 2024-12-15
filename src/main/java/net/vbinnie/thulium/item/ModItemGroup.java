@@ -41,6 +41,8 @@ public class ModItemGroup {
                         entries.add(ModBlocks.DIVINE_FENCE_GATE);
                         entries.add(ModBlocks.DIVINE_DOOR);
 
+                        entries.add(ModItems.POISONOUS_SUBSTANCE);
+
 
                     }).build());
 

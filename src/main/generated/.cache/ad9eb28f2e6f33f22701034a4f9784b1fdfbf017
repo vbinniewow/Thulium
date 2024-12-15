@@ -1,4 +1,4 @@
-// 1.20.1	2024-12-01T17:19:58.9437988	Thulium/Tags for minecraft:item
+// 1.20.1	2024-12-14T16:13:06.3840691	Thulium/Tags for minecraft:item
 42d3b722e665b326a6fce099b801a57bd5fd1d42 data\minecraft\tags\items\planks.json
 5948a207a4f6c111d667d71d7c1e83e198babfe0 data\minecraft\tags\items\wooden_doors.json
 3f4f9d9d06030d6ed8aa502567e747500aa4a576 data\thulium\tags\items\divine_woods.json
@@ -6,6 +6,6 @@
 6390bdcad8d959139a119c3de748369e6c662aa4 data\minecraft\tags\items\wooden_pressure_plates.json
 870a1d94252a8652dd58e12bd02b40e9d7014595 data\minecraft\tags\items\wooden_buttons.json
 69c1043090d548222bed65b1c3b81d79b79c6bfe data\minecraft\tags\items\wooden_trapdoors.json
-39ef2d08c258d8f059a6c0ba973e58d61fdd6ef6 data\minecraft\tags\items\logs_that_burn.json
 01c08927345b999527d282360567fed4927732e8 data\minecraft\tags\items\wooden_stairs.json
+39ef2d08c258d8f059a6c0ba973e58d61fdd6ef6 data\minecraft\tags\items\logs_that_burn.json
 37f4fd1404bfa89a75e508f3b3239afa46462870 data\minecraft\tags\items\wooden_slabs.json
