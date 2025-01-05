@@ -4,6 +4,12 @@
 
   "item.thulium.poisonous_substance": "Poisonous Substance",
 
+  "effect.thulium.hyperpoison": "Lethal Poison",
+  "item.minecraft.tipped_arrow.effect.hyperpoison_potion": "Arrow of Lethal Poison",
+  "item.minecraft.potion.effect.hyperpoison_potion": "Lethal Poison Potion",
+  "item.minecraft.splash_potion.effect.hyperpoison_potion": "Lethal Poison Splash Potion",
+  "item.minecraft.lingering_potion.effect.hyperpoison_potion": "Lethal Poison Lingering Potion",
+
   "block.thulium.thulium_block": "Block of Thulium",
   "block.thulium.raw_thulium_block": "Block of Raw Thulium",
   "block.thulium.deepslate_thulium_ore": "Deepslate Thulium Ore",

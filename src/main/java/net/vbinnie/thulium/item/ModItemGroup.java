@@ -1,6 +1,7 @@
 package net.vbinnie.thulium.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -9,6 +10,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.vbinnie.thulium.Thulium;
 import net.vbinnie.thulium.block.ModBlocks;
+import net.vbinnie.thulium.potion.ModPotions;
 
 public class ModItemGroup {
     public static final ItemGroup THULIUM_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -42,6 +44,7 @@ public class ModItemGroup {
                         entries.add(ModBlocks.DIVINE_DOOR);
 
                         entries.add(ModItems.POISONOUS_SUBSTANCE);
+
 
 
                     }).build());

@@ -1,4 +1,4 @@
-// 1.20.1	2024-12-14T16:13:06.3809771	Thulium/Model Definitions
+// 1.20.1	2024-12-15T13:58:01.9823574	Thulium/Model Definitions
 0d6eb401bb10c5b9381a19eb15d95d4a0652f04b assets\thulium\models\block\divine_stairs_inner.json
 432a661378e60831c8707fb047de6e2c0e1c9c00 assets\thulium\models\block\stripped_divine_log.json
 ea80e5b41217d23ce7fdbf9e8e029715006a95cf assets\thulium\models\item\divine_door.json
@@ -38,8 +38,8 @@ b9ea4ee6d45c60a1e28ad7e614318bd66e18399f assets\thulium\models\item\divine_fence
 6438b71c2e4f0d0328f9e6b85fcdcf612aa4e097 assets\thulium\models\block\divine_planks.json
 5159b3c76ee08d44796c73462ea4f07856579535 assets\thulium\models\item\divine_fence.json
 f38018fa91234af91532cf585393e6e5ba7b3ec3 assets\thulium\models\block\divine_pressure_plate_down.json
-47274629e393e47e4c069ecca7c5bc3734931997 assets\thulium\blockstates\dev_block2.json
 e2c771edf636fb31dda9cf483d466b0ae64cc46d assets\thulium\blockstates\thulio_block.json
+47274629e393e47e4c069ecca7c5bc3734931997 assets\thulium\blockstates\dev_block2.json
 a4c81d486adebdaf8d191c7b3545ca795c66b6dc assets\thulium\models\block\divine_fence_gate_wall.json
 f5e2304b17cea3a3fd60c85a1f951a1e83528b4f assets\thulium\models\block\divine_sapling.json
 036fd6646cd26531403f083119b1560c717e4ea3 assets\thulium\blockstates\deepslate_thulium_ore.json
@@ -74,8 +74,8 @@ e426afaf61b39df5cc40b140176917cf6d14ee51 assets\thulium\models\block\divine_fenc
 5ce41d1bfcdeb7c5e074b4a72670dda528c4845c assets\thulium\models\item\poisonous_substance.json
 666162c2b609b22f43b79eeee3f80132d71cdd6e assets\thulium\models\block\divine_stairs_outer.json
 738a610188de2c89b378b546fba1fc8ac6714c6f assets\thulium\models\block\divine_fence_gate_wall_open.json
-9515c30a4c7f933098f611b190d19a6136bbab10 assets\thulium\blockstates\divine_stairs.json
 ceba14603c9e7a749e4897791d9f3ce765c946af assets\thulium\blockstates\raw_thulium_block.json
+9515c30a4c7f933098f611b190d19a6136bbab10 assets\thulium\blockstates\divine_stairs.json
 52911325666684d411d2731fa709cf96deb1ece3 assets\thulium\models\item\divine_pressure_plate.json
 36b8a0bd6cea63534cad94c4645024b0654f429c assets\thulium\models\block\divine_door_top_left_open.json
 26b27677b9f6fc022c3dda25b4ae520aaea9470e assets\thulium\models\block\divine_button.json

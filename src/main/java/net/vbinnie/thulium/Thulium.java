@@ -3,8 +3,11 @@ package net.vbinnie.thulium;
 import net.fabricmc.api.ModInitializer;
 
 import net.vbinnie.thulium.block.ModBlocks;
+import net.vbinnie.thulium.effect.ModEffects;
 import net.vbinnie.thulium.item.ModItemGroup;
 import net.vbinnie.thulium.item.ModItems;
+import net.vbinnie.thulium.mixin.InGameHudMixin;
+import net.vbinnie.thulium.potion.ModPotions;
 import net.vbinnie.thulium.util.ModRegistries;
 import net.vbinnie.thulium.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
@@ -27,5 +30,8 @@ public class Thulium implements ModInitializer {
 
 		ModWorldGeneration.generateModWorldGeneration();
 
+		ModEffects.registerEffects();
+
+		ModPotions.registerPotions();
 	}
 }

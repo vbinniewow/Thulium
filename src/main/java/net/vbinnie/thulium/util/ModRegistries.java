@@ -2,12 +2,17 @@ package net.vbinnie.thulium.util;
 
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
+import net.minecraft.potion.Potions;
 import net.vbinnie.thulium.block.ModBlocks;
+import net.vbinnie.thulium.item.ModItems;
+import net.vbinnie.thulium.mixin.BrewingRecipeRegistryMixin;
+import net.vbinnie.thulium.potion.ModPotions;
 
 public class ModRegistries {
     public static void registerModStuffs() {
         registerStrippables();
         registerFlammables();
+        registerPotionRecipes();
     }
 
     private static void registerFlammables() {
@@ -44,5 +49,9 @@ public class ModRegistries {
         StrippableBlockRegistry.register(ModBlocks.DIVINE_LOG, ModBlocks.STRIPPED_DIVINE_LOG);
 
         StrippableBlockRegistry.register(ModBlocks.DIVINE_WOOD, ModBlocks.STRIPPED_DIVINE_WOOD);
+    }
+
+    private static void registerPotionRecipes() {
+        BrewingRecipeRegistryMixin.invokeRegisterPotionRecipe(Potions.POISON, ModItems.POISONOUS_SUBSTANCE, ModPotions.HYPERPOISON_POTION);
     }
 }

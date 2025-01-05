@@ -4,6 +4,13 @@
 
   "item.thulium.poisonous_substance": "Substância venenosa",
 
+  "effect.thulium.hyperpoison": "Hiperveneno",
+  "item.minecraft.tipped_arrow.effect.hyperpoison_potion": "Flecha of hiperveneno",
+  "item.minecraft.tipped_arrow.effect.hyperpoison_potion": "Flecha of hiperveneno",
+  "item.minecraft.potion.effect.hyperpoison_potion": "Poção de hiperveneno",
+  "item.minecraft.splash_potion.effect.hyperpoison_potion": "Poção prolongada de hiperveneno",
+  "item.minecraft.lingering_potion.effect.hyperpoison_potion": "Poção arremessável de hiperveneno",
+
   "block.thulium.thulium_block": "Bloco de thulium",
   "block.thulium.raw_thulium_block": "Bloco de thulium bruto",
   "block.thulium.deepslate_thulium_ore": "Minério de thulium de ardósia",
