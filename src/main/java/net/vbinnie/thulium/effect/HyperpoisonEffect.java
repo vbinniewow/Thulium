@@ -16,7 +16,7 @@ public class HyperpoisonEffect extends StatusEffect {
         World world = entity.getWorld();
 
 
-        if (!world.isClient() && entity.age % 200 == 0) {
+        if (!world.isClient() && entity.age % 150 == 0) {
             entity.damage(world.getDamageSources().magic(), 3.0f);
         }
     }
